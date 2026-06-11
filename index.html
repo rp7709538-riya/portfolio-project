@@ -1,48 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>My Portfolio</title>
-
-<meta name="description" content="Personal Portfolio Website">
-
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-<h1>My Portfolio</h1>
+    <div class="container">
+        <h1>Weather Dashboard</h1>
 
-<nav aria-label="Main Navigation">
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="projects.html">Projects</a>
-<a href="contact.html">Contact</a>
-</nav>
+        <input type="text" id="city" placeholder="Enter City Name">
 
-</header>
+        <button onclick="getWeather()">Search</button>
 
-<main>
+        <div id="result"></div>
+    </div>
 
-<section>
-
-<h2>Welcome</h2>
-
-<p>Hello, I am learning Web Development.</p>
-
-</section>
-
-</main>
-
-<footer>
-
-<p>© 2025 My Portfolio</p>
-
-</footer>
+    <script src="script.js"></script>
 
 </body>
-
 </html>
